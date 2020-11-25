@@ -88,13 +88,13 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 400px;
+  max-width: 300px;
   display: block;
   margin: auto;
 }
 
 .hero .projects-img {
-  max-width: 425px;
+  max-width: 300px;
   display: block;
   margin: auto;
 }
