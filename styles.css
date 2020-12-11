@@ -49,11 +49,19 @@ hr {
 
 .list-non-bullet {
   list-style: none;
+  padding-inline-start: 0px;
 }
+
+.showcase-list {
+  padding: 2rem;
+}
+
+
 
 .list-item-inline {
   display: inline;
   padding: 0rem 0.2rem;
+  justify-items: auto;
 }
 
 .navigation {
@@ -61,6 +69,7 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  
 }
 
 .nav-brand {
@@ -71,6 +80,7 @@ hr {
 .nav-pills {
   color: white;
   text-align: right;
+  
 }
 
 .navigation .link {
@@ -84,7 +94,8 @@ hr {
 /** header **/
 
 .hero {
-  padding: 5rem;
+  padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
