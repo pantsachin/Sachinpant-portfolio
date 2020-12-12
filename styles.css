@@ -61,7 +61,7 @@ hr {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.2rem;
-  justify-items: auto;
+  
 }
 
 .navigation {
@@ -80,7 +80,16 @@ hr {
 .nav-pills {
   color: white;
   text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   
+}
+
+@media (max-width: 800px) {
+  .nav-pills {
+    justify-content: flex-start;
+  }
 }
 
 .navigation .link {
